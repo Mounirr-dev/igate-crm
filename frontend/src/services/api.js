@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://TON-BACKEND.onrender.com/api"
+  baseURL: "https://igate-crm.onrender.com/api"
 });
 
 api.interceptors.request.use((config) => {
